@@ -19,3 +19,9 @@ if fig == "Rectangle":
         print(2*(l+w))
     else:
         print("Invalid Type")
+if fig == "Triangle":
+    b = float(input("Enter the length of the base"))
+    h = float(input("Enter the height"))
+    a = (b*h)/2
+    print("The area is ",a)
+
