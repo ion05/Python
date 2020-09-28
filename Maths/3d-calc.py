@@ -1,7 +1,7 @@
 import math
 fig = input("For which figure do you want to calculate ?")
 if fig == "Cube":
-    s = float(("Enter the length of the side"))
+    s = float(input("Enter the length of the side"))
     type = input("What do you want to calculate")
     if type == "LSA":
         print(4*s*s)
